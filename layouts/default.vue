@@ -45,14 +45,14 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer fixed app>
-      <span>&copy; 2019</span>
-    </v-footer>
+    <sc-footer></sc-footer>
   </v-app>
 </template>
 
 <script>
+import ScFooter from '~/components/layout/Footer'
 export default {
+  components: { ScFooter },
   data() {
     return {
       drawer: false,
