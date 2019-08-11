@@ -4,7 +4,7 @@
       <v-list dense nav>
         <v-list-item two-line>
           <v-list-item-avatar>
-            <img src="/seba2.jpg"></img>
+            <img src="/seba2.jpg" />
           </v-list-item-avatar>        
           <v-list-item-content>
             <v-list-item-title>Sebastian</v-list-item-title>
@@ -28,7 +28,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped" dark fixed app>
+    <v-app-bar dark fixed app>
       <img :src="logo" alt="Logo" height="40" width="40" class="mr-4" />
       <v-toolbar-title v-text="title" />
       <v-spacer />

@@ -25,7 +25,7 @@
         >
       </p>
       <v-alert
-        value="true"
+        :value="true"
         color="primary"
         class="text-center font-weight-bold"
         dark
