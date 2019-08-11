@@ -20,7 +20,7 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon style="font-size:2rem">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -35,7 +35,7 @@
       <v-app-bar-nav-icon class="hidden-md-and-up" @click.stop="drawer = !drawer" />
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn v-for="(item, i) in items" :key="i" class="mx-1" nuxt :to="item.to" exact text >
-          <v-icon class="pr-1">{{item.icon}}</v-icon>
+          <v-icon class="pr-1" style="font-size:2rem">{{item.icon}}</v-icon>
           {{item.title}}
         </v-btn>
       </v-toolbar-items>

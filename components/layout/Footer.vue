@@ -5,7 +5,7 @@
     <ul>
       <li v-for="(item, k) in items" :key="k">
         <a :href="item.to" target="_blank" title="facebook">
-          <v-icon>{{item.icon}}</v-icon>
+          <v-icon style="font-size:2rem">{{item.icon}}</v-icon>
         </a>
       </li>
     </ul>

@@ -16,6 +16,16 @@
         </v-card-title>
       </v-card>
     </v-flex>
+    <v-flex xs12 class="ma-2" style="text-align:center; font-size:1.5rem">
+      <strong>Mi stack: </strong>
+      <div class="stack">
+        <h2 class="caption">Javascript</h2>
+        <i class="mdi mdi-vuejs"></i> Vue | <i class="mdi mdi-react"></i> React
+        | <i class="mdi mdi-nodejs"></i> Nodejs |
+        <i class="mdi mdi-database"></i> Postgres
+        <p>Entre Vue y React prefiero mas el primero</p>
+      </div>
+    </v-flex>
     <v-flex xs12 class="font-weight-regular">
       <p class="ma-4 pl-2" style="border-left: 3px solid purple">
         <i
@@ -34,19 +44,6 @@
         Generadora de Consciencia Global. Usemos este poder con gran
         responsabilidad.
       </v-alert>
-    </v-flex>
-    <v-flex xs12 class="ma-2">
-      <p>
-        En el universo de los programadores cada uno tiene sus lenguajes y
-        herramientas favoritos. En este caso <strong>mi stack: </strong>
-      </p>
-      <div class="stack">
-        <h2 class="caption">Javascript</h2>
-        <i class="mdi mdi-vuejs"></i> Vue | <i class="mdi mdi-react"></i> React
-        | <i class="mdi mdi-nodejs"></i> Nodejs |
-        <i class="mdi mdi-database"></i> Postgres
-        <p>Entre Vue y React prefiero mas el primero</p>
-      </div>
     </v-flex>
   </v-layout>
 </template>
