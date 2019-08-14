@@ -1,6 +1,6 @@
 <template>
   <v-footer dark app>
-    <span class="ml-2">&copy; {{ new Date().getFullYear() }}</span>
+    <span class="ml-2 d-none d-sm-flex">&copy; {{ new Date().getFullYear() }}</span>
     <v-spacer></v-spacer>
     <ul>
       <li v-for="(item, k) in items" :key="k">
