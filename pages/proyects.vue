@@ -17,18 +17,18 @@
         dar su opinión podra apoyar su argumento con los datos de las encuestas.
       </p>
       <p>
-        Es todo un desafío desarrollar toda una app completa. Llenos de altos y bajos.
+        Es todo un desafío desarrollar una app completa. Llenos de altos y bajos.
         Es también muy divertido, emocionante y fuente de motivación poder
         trabajar en un proyecto así. He tenido que diseñar y desarrollar toda la
         base de datos con Postgres. Luego desarrollé una API con Node usando
         Sequelize como ORM para comunicarme con la base de datos. Luego he
-        desarrollado el Frontend con Vue usando Nuxt en modo universal. También
-        aprendí a usar Gitlab, Github en el proceso. Y finalmente estoy
+        desarrollado el Frontend con Vue usando Nuxt en modo universal y por supuesto Vuex. También
+        aprendí a usar Gitlab y Github en el proceso. Y finalmente estoy
         conociendo el Cloud de Google, la cual brinda muchísimas herramientas
-        para que nosotros los desarrolladores empecemos a crear. Herramientas
+        para que nosotros los desarrolladores empecemos a servir nuestras aplicaciones. Herramientas
         como App Engine para el frontend, Compute Engine para la API, Postgres
         en Cloud y una VPN para que la API consulte la base de datos con una IP
-        privada. Es un continuo aprender, experimetnar e implementar.
+        privada. Es un continuo aprender, experimentar e implementar.
       </p>
     </v-flex>
   </v-layout>

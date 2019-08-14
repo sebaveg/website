@@ -10,12 +10,17 @@
         <p>
           Me apasiona el cambio que la era digital esta produciendo hoy en día.
           Quiero crear aplicaciones que aporten valor a la humanidad para que
-          todos podamos vivir un poco mejor.
+          todos podamos vivir mejor.
         </p>
         <p>
           Además de crear tecnología me apasiona el desarrollo personal. Busco
-          crecer los cuatro pilares básicos: Relaciones sociales, Riqueza
-          personal, Salud y Espiritualidad.
+          crecer los cuatro pilares básicos de la vida:
+          <ul>
+            <li> Relaciones sociales </li>
+            <li> Riqueza personal </li>
+            <li> Salud </li>
+            <li> Espiritualidad. </li>
+          </ul>
         </p>
         <div class="text-center">
           <v-btn color="primary" class="mt-5  " nuxt to="/"
