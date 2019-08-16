@@ -84,7 +84,7 @@ export default {
         }
       ],
       logo: "/icono.png",
-      title: "Seba Mate"
+      title: "Seba Cardoso"
     };
   }
 };

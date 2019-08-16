@@ -1,32 +1,29 @@
 <template>
-  <v-layout justify-center align-center column>
-    <v-flex xs12 sm8 md6>
-      <v-avatar size="170">
-        <img src="/seba.png" alt="Foto de seba" />
-      </v-avatar>
-    </v-flex>
-    <v-flex>
-      <v-card class="text-center" dark>
-        <v-card-title class="my-2">
-          <h2 class="headline text-center" style="max-width: 350px">
-            Hola! Me llamo Sebastian.
-            <br />
-            Soy desarrollador Web
-          </h2>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-    <v-flex xs12 class="ma-2" style="text-align:center; font-size:1.5rem">
+  <v-row justify="center" align="center">
+    <v-col cols="12" sm="8" md="3" class="mt-2" style="border:1px solid red">
+      <v-img src="/seba.png" width="200" alt="Foto de seba" style="margin:0 auto;border-radius:50%"/>
+    </v-col>
+    <v-col cols="12" sm="8" md="4" class="mt-2">
+      <div style="max-width=350px;background-color:#424242;color:#fff;padding:1em 0" class="elevation-5">
+        <h2 class="title text-center">
+          Hola! Me llamo Sebastian.
+          <br />
+          Soy desarrollador Web
+        </h2>
+      </div>
+    </v-col>
+    <v-col cols="12" class="mt-2" style="text-align:center; font-size:1.3rem">
       <strong>Mi stack: </strong>
       <div class="stack">
         <h2 class="caption">Javascript</h2>
         <i class="mdi mdi-vuejs"></i> Vue | <i class="mdi mdi-react"></i> React
-        | <i class="mdi mdi-nodejs"></i> Nodejs |
+        | <br />
+        <i class="mdi mdi-nodejs"></i> Nodejs |
         <i class="mdi mdi-database"></i> Postgres
         <p>Entre Vue y React prefiero mas el primero</p>
       </div>
-    </v-flex>
-    <v-flex xs12 class="font-weight-regular">
+    </v-col>
+    <v-cols cols="12" class="font-weight-regular">
       <p class="ma-4 pl-2" style="border-left: 3px solid purple">
         <i
           >Aprendí primero en la universidad y mas tarde de forma autodidacta
@@ -44,8 +41,12 @@
         Generadora de Consciencia Global. Usemos este poder con gran
         responsabilidad.
       </v-alert>
-    </v-flex>
-  </v-layout>
+    </v-cols>
+    <v-col cols="12">
+      <h2 class="title text-center">Mi diario</h2>
+      
+    </v-col>
+  </v-row>
 </template>
 
 <script>

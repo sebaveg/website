@@ -15,13 +15,13 @@
         <p>
           Además de crear tecnología me apasiona el desarrollo personal. Busco
           crecer los cuatro pilares básicos de la vida:
-          <ul>
-            <li> Relaciones sociales </li>
-            <li> Riqueza personal </li>
-            <li> Salud </li>
-            <li> Espiritualidad. </li>
-          </ul>
         </p>
+        <ul>
+          <li> Salud </li>
+          <li> Riqueza personal </li>
+          <li> Relaciones sociales </li>
+          <li> Espiritualidad. </li>
+        </ul>
         <div class="text-center">
           <v-btn color="primary" class="mt-5  " nuxt to="/"
             >Volver al inicio</v-btn
