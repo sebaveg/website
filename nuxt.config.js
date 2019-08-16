@@ -42,7 +42,14 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    '@nuxtjs/markdownit'
+  ],
+  markdownit: {
+    preset: 'default',
+    linkkify: true,
+    breaks: true
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
