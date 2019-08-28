@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My personal website Sebastian Cardoso Castillo",
   "author": "Sebastian Cardoso Castillo <sebastiancardoso92@gmail.com>",
+  "engines": {
+    "node": "10.3.0"
+  },
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
