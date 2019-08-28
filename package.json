@@ -1,8 +1,8 @@
 {
-  "name": "website-sebamate",
+  "name": "website-seba-cardoso",
   "version": "1.0.0",
-  "description": "My personal website",
-  "author": "Sebastian Cardoso Castillo",
+  "description": "My personal website Sebastian Cardoso Castillo",
+  "author": "Sebastian Cardoso Castillo <sebastiancardoso92@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",

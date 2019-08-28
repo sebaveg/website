@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="3" class="mt-2" style="border:1px solid red">
-      <v-img src="/seba.png" width="200" alt="Foto de seba" style="margin:0 auto;border-radius:50%"/>
+    <v-col cols="12" sm="8" md="3" class="mt-2">
+      <v-img src="/seba.jpg" width="200" alt="Foto de seba" style="margin:0 auto;border-radius:50%"/>
     </v-col>
     <v-col cols="12" sm="8" md="4" class="mt-2">
       <div style="max-width=350px;background-color:#424242;color:#fff;padding:1em 0" class="elevation-5">
