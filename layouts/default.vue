@@ -74,8 +74,8 @@ export default {
         },
         {
           icon: "mdi-notebook",
-          title: "Diario",
-          to: "/diario"
+          title: "Artículos",
+          to: "/articles"
         },
         {
           icon: "mdi-information",
