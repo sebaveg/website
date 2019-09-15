@@ -42,21 +42,25 @@
         responsabilidad.
       </v-alert>
     </v-cols>
-    <h3 class="title text-center">Mis últimos proyectos</h3>
     <v-col cols="12">
-      <h2 class="header mt-4">Reversi Game</h2>
-      <p>Un juego desarrollado con React/Redux testeado con Jest y Enzyme.</p>
-      <p><a href="https://reversi-game.sebastiancardoso92.now.sh">Ver juego aqui</a></p>
-      <p></p>
-      <v-img src="/reversi1.jpg" alt="Reversi-Game" style="margin:0 auto" />
+      <h3 class="title text-center">Mis últimos proyectos</h3>      
     </v-col>
-    <v-col cols="12" class="mt-5">
-      <h2 class="header mt-4">Geounity</h2>
-      <p>Una aplicación web desarrollada con <strong>Vue/Vuex/Nuxt</strong>. La app se comunica con una API construida con <strong>Node</strong>, Express y Sequelize. La API interactúa con una base de datos construida con <strong>Postgres</strong>.</p>
-      <p><a href="https://geounity.org">Geounity.org</a></p>
-      <p></p>
-      <v-img src="/geounity1.png" alt="Reversi-Game" style="margin:0 auto" />
-    </v-col>
+    <v-row justify="space-around" align="start">
+      <v-col cols="12" md="5">
+        <h2 class="header mt-4">Reversi Game</h2>
+        <p>Un juego desarrollado con React/Redux testeado con Jest y Enzyme.</p>
+        <p><a href="https://reversi-game.sebastiancardoso92.now.sh">Ver juego aqui</a></p>
+        <p></p>
+        <v-img src="/reversi1.jpg" alt="Reversi-Game" style="margin:0 auto;max-width:320px" />
+      </v-col>
+      <v-col cols="12" md="5">
+        <h2 class="header mt-4">Geounity</h2>
+        <p>Una aplicación web desarrollada con <strong>Vue/Vuex/Nuxt</strong>. La app se comunica con una API construida con <strong>Node</strong>, Express y Sequelize. La API interactúa con una base de datos construida con <strong>Postgres</strong>.</p>
+        <p><a href="https://geounity.org">Geounity.org</a></p>
+        <p></p>
+        <v-img src="/geounity1.png" alt="Reversi-Game" style="margin:0 auto;max-width:320px" />
+      </v-col>
+    </v-row>
   </v-row>
 </template>
 
