@@ -24,7 +24,7 @@
     v-app-bar(dark fixed app)
       img(:src="logo" alt="Logo" height="40" width="40" class="mr-4")
       v-toolbar-title(v-text="title")
-      v-btn( nuxt :to="`/es` + $route.fullPath" exact text class="ml-5") Español
+      v-btn( nuxt :to="`/es` + $route.fullPath" exact text class="ml-5" @click="refresh") Español
       v-btn( nuxt :to="`/`" exact text ) English
       v-spacer
       v-app-bar-nav-icon(class="hidden-md-and-up" @click.stop="drawer = !drawer")
@@ -75,6 +75,11 @@ export default {
       logo: "/icono.png",
       title: "Seba"
     };
+  },
+  methods: {
+    refresh(){
+      window.location.reload(true)
+    }
   }
 };
 </script>
