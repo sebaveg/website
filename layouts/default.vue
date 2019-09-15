@@ -24,9 +24,9 @@
     v-app-bar(dark fixed app)
       img(:src="logo" alt="Logo" height="40" width="40" class="mr-4")
       v-toolbar-title(v-text="title")
+      v-btn( nuxt :to="`/es` + $route.fullPath" exact text class="ml-5") Español
+      v-btn( nuxt :to="`/`" exact text ) English
       v-spacer
-      v-btn( nuxt :to="`/es` + $route.fullPath" exact text) ES
-      v-btn( nuxt :to="`/`" exact text class="mr-5") EN
       v-app-bar-nav-icon(class="hidden-md-and-up" @click.stop="drawer = !drawer")
       v-toolbar-items(class="hidden-sm-and-down")
         v-btn(v-for="(item, i) in items" :key="i" class="mx-1" nuxt :to="item.to" exact text)
@@ -73,7 +73,7 @@ export default {
         }
       ],
       logo: "/icono.png",
-      title: "Seba Cardoso"
+      title: "Seba"
     };
   }
 };
