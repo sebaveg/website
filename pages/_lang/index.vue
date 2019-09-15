@@ -1,26 +1,25 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="3" class="mt-2">
-      <v-img src="/seba.jpg" width="250" alt="Foto de seba" style="margin:0 auto;border-radius:50%"/>
-    </v-col>
-    <v-col cols="12" sm="8" md="4" class="mt-2">
-      <div style="max-width=350px;background-color:#424242;color:#fff;padding:1em 0" class="elevation-5">
-        <h2 class="title text-center">
-          {{ $t('home.presentation') }}
-          <br />
-          {{ $t('home.job') }}
-        </h2>
-      </div>
-    </v-col>
+  <main>
+    <v-row justify="center" align="center" class="presentation-background">
+      <v-col cols="12" sm="8" md="3" class="mt-2">
+        <v-img src="/seba.jpg" width="250" alt="Foto de seba" style="margin:0 auto;border-radius:50%"/>
+      </v-col>
+      <v-col cols="12" sm="8" md="4" class="mt-2" style="position:relative">
+        <div style="max-width=350px;background-color:#424242;color:#fff;padding:1em 0" class="elevation-5">
+          <h2 class="title text-center">
+            {{ $t('home.presentation') }}
+            <br />
+            {{ $t('home.job') }}
+          </h2>
+        </div>
+      </v-col>
+    </v-row>
     <v-col cols="12" class="mt-2" style="text-align:center; font-size:1.3rem">
-      <strong>Mi stack: </strong>
       <div class="stack">
-        <h2 class="caption">Javascript</h2>
-        <i class="mdi mdi-vuejs"></i> Vue | <i class="mdi mdi-react"></i> React
-        | <br />
+        <i class="mdi mdi-vuejs"></i> Vue | Vuex | <i class="mdi mdi-nuxt"></i> Nuxt <br />
+        <i class="mdi mdi-react"></i> React | Redux | Next | React-Native<br/>
         <i class="mdi mdi-nodejs"></i> Nodejs |
         <i class="mdi mdi-database"></i> Postgres
-        <p>Entre Vue y React prefiero mas el primero</p>
       </div>
     </v-col>
     <v-cols cols="12" class="font-weight-regular">
@@ -57,7 +56,7 @@
         <v-img src="/geounity1.png" alt="Reversi-Game" style="margin:0 auto;max-width:350px" />
       </v-col>
     </v-row>
-  </v-row>
+  </main>
 </template>
 
 <script>
@@ -67,6 +66,20 @@ export default {
 </script>
 
 <style scoped>
+.presentation-background{
+  position:relative;
+}
+.presentation-background:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../static/computers.jpg');
+  background-position: center;
+  background-size: cover;
+  filter: opacity(50%);
+  padding: 2em 0;
+}
 .stack {
   text-align: center;
 }

@@ -25,15 +25,15 @@
       img(:src="logo" alt="Logo" height="40" width="40" class="mr-4")
       v-toolbar-title(v-text="title")
       v-spacer
+      v-btn( nuxt :to="`/es` + $route.fullPath" exact text) ES
+      v-btn( nuxt :to="`/`" exact text class="mr-5") EN
       v-app-bar-nav-icon(class="hidden-md-and-up" @click.stop="drawer = !drawer")
       v-toolbar-items(class="hidden-sm-and-down")
         v-btn(v-for="(item, i) in items" :key="i" class="mx-1" nuxt :to="item.to" exact text)
           v-icon(class="pr-1" style="font-size:2rem") {{item.icon}}
           span {{item.title}}
-        //- v-btn(v-if="$i18n.locale === 'en'" nuxt :to="`/es` + $route.fullPath" exact) Español
-        //- v-btn(v-else nuxt :to="$route.fullPath.replace(/^\/[^\/]+/, '')" exact) Ingles
     v-content
-      v-container
+      v-container(class="py-0" fluid)
         nuxt
     sc-footer
 </template>
