@@ -22,7 +22,10 @@ module.exports = {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: "#fff" },
+  loading: { color: "cyan" },
+  router: {
+    middleware: 'i18n'
+  },
   /*
    ** Global CSS
    */
@@ -30,7 +33,10 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['@/plugins/i18n.js'],
+  generate: {
+    routes: ['/', '/about', '/projects', '/travels', '/es', '/es/acerca', '/es/proyectos', '/es/viajes']
+  },
   /*
    ** Nuxt.js dev-modules
    */
