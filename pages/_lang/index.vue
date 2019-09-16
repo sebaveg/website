@@ -22,33 +22,39 @@
         </v-hover>
       </v-col>
     </v-row>
-    <v-col cols="12" class="mt-2" style="text-align:center; font-size:1.3rem">
-      <div class="stack">
-        <i class="mdi mdi-vuejs"></i> Vue | Vuex | <i class="mdi mdi-nuxt"></i> Nuxt <br />
-        <i class="mdi mdi-react"></i> React | Redux | Next | React-Native<br/>
-        <i class="mdi mdi-nodejs"></i> Nodejs |
-        <i class="mdi mdi-database"></i> Postgres
-      </div>
-    </v-col>
-    <v-container>
-      <v-cols cols="12" class="font-weight-regular">
+    <v-row justify="center">
+      <v-col cols="11" md="6">
         <p class="ma-4 pl-2" style="border-left: 3px solid purple">
           <i>
             {{ $t('home.presentation2') }}
           </i>
         </p>
-        <v-alert
-          :value="true"
-          color="primary"
-          class="text-center font-weight-bold"
-          dark
-        >
-          {{ $t('home.internetMessage') }}
-        </v-alert>
-      </v-cols>
-      <v-col cols="12">
-        <h3 class="title text-center">Mis últimos proyectos</h3>      
       </v-col>
+      <v-col cols="12" class="mt-2" style="font-size:1.3rem">
+        <div class="stack">
+          <i class="mdi mdi-vuejs"></i> Vue | Vuex | <i class="mdi mdi-nuxt"></i> Nuxt <br />
+          <i class="mdi mdi-react"></i> React | Redux | Next | React-Native<br/>
+          <i class="mdi mdi-nodejs"></i> Nodejs |
+          <i class="mdi mdi-database"></i> Postgres
+        </div>
+      </v-col>
+    </v-row>
+    <v-container>
+      <v-row justify="center">
+        <v-cols cols="11" md="6" class="font-weight-regular">
+          <v-alert
+            :value="true"
+            color="primary"
+            class="text-center font-weight-bold mt-2 elevation-5"
+            dark
+          >
+            {{ $t('home.internetMessage') }}
+          </v-alert>
+        </v-cols>
+        <v-col cols="12">
+          <h3 class="title text-center">Mis últimos proyectos</h3>      
+        </v-col>
+      </v-row>
       <v-row justify="space-around" align="start">
         <v-col cols="12" md="5">
           <h2 class="header mt-4">Reversi Game</h2>

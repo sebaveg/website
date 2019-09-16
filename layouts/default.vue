@@ -73,7 +73,7 @@ export default {
         }
       ],
       logo: "/icono.png",
-      title: "Seba"
+      title: ""
     };
   },
   methods: {
