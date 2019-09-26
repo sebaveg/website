@@ -3,11 +3,12 @@
     "presentation": "Hello! My name is Sebastian",
     "job": "I am Web Developer",
     "presentation2": "I learned first in the university and later in a self-taught way taking advantage of the tools that the Internet has to offer us. From tutorials, articles, guides, online video courses, etc.",
-    "internetMessage": "Internet is the tool we need to unite the world. Global Consciousness Generator. Let's use this power with great responsibility."
+    "internetMessage": "Internet is the tool we need to unite the world. Global Consciousness Generator. Let's use this power with great responsibility.",
+    "titleProjects": "My projects"
   },
   "projects": {
     "geounity": {
-      "description": "A web application developed with Vue/Vuex/Nuxt. API built with Node, Express and Sequelize. Database Postgres."
+      "description": "Frontend developed with Vue/Vuex/Nuxt. Backend API developed with Node, Express and Sequelize. Database in Postgres."
     },
     "reversi": {
       "description": "A game developed with React/Redux tested with Jest and Enzyme."

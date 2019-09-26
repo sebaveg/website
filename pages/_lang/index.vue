@@ -8,8 +8,8 @@
           </template>
         </v-hover>
       </v-col>
-      <v-col cols="12" sm="8" md="4" class="mt-2" style="position:relative">
-        <v-hover>
+      <v-col cols="12" sm="8" md="4" class="mt-2" style="position:relative" >
+        <v-hover style="margin:0 auto">
           <template v-slot="{hover}">
             <div class="presentation transition-swing" :class="`elevation-${hover?24:6}`">
               <h2 class="title text-center">
@@ -23,6 +23,16 @@
       </v-col>
     </v-row>
     <v-row justify="center">
+      <v-cols cols="11" md="6">
+        <v-alert
+          :value="true"
+          color="primary"
+          class="text-center font-weight-bold mt-3 mx-1 elevation-5"
+          dark
+        >
+          {{ $t('home.internetMessage') }}
+        </v-alert>
+      </v-cols>
       <v-col cols="11" md="6">
         <p class="ma-4 pl-2" style="border-left: 3px solid purple">
           <i>
@@ -30,7 +40,7 @@
           </i>
         </p>
       </v-col>
-      <v-col cols="12" class="mt-2" style="font-size:1.3rem">
+      <v-col cols="12" class="mt-2" style="font-size:1.1rem">
         <div class="stack">
           <i class="mdi mdi-vuejs"></i> Vue | Vuex | <i class="mdi mdi-nuxt"></i> Nuxt <br />
           <i class="mdi mdi-react"></i> React | Redux | Next | React-Native<br/>
@@ -41,31 +51,21 @@
     </v-row>
     <v-container>
       <v-row justify="center">
-        <v-cols cols="11" md="6" class="font-weight-regular">
-          <v-alert
-            :value="true"
-            color="primary"
-            class="text-center font-weight-bold mt-2 elevation-5"
-            dark
-          >
-            {{ $t('home.internetMessage') }}
-          </v-alert>
-        </v-cols>
         <v-col cols="12">
-          <h3 class="title text-center">Mis últimos proyectos</h3>      
+          <h3 class="title text-center mt-3">{{$t('home.titleProjects')}}</h3>      
         </v-col>
       </v-row>
       <v-row justify="space-around" align="start">
         <v-col cols="12" md="5">
-          <h2 class="header mt-4">Reversi Game</h2>
-          <p>Un juego desarrollado con React/Redux testeado con Jest y Enzyme.</p>
+          <h2 class="header">Reversi Game</h2>
+          <p>{{ $t('projects.reversi.description') }}</p>
           <p><a href="https://reversi-game.sebastiancardoso92.now.sh">Ver juego aqui</a></p>
           <p></p>
           <v-img src="/reversi1.jpg" alt="Reversi-Game" style="margin:0 auto;max-width:320px" />
         </v-col>
         <v-col cols="12" md="5">
           <h2 class="header mt-4">Geounity</h2>
-          <p>Una aplicación web desarrollada con <strong>Vue/Vuex/Nuxt</strong>. La app se comunica con una API construida con <strong>Node</strong>, Express y Sequelize. La API interactúa con una base de datos construida con <strong>Postgres</strong>.</p>
+          <p>{{ $t('projects.geounity.description') }}</p>
           <p><a href="https://geounity.org">Geounity.org</a></p>
           <p></p>
           <v-img src="/geounity1.png" alt="Reversi-Game" style="margin:0 auto;max-width:350px" />
