@@ -5,6 +5,14 @@
     "presentation2": "Aprendí primero en la universidad y mas tarde de forma autodidacta aprovechando las herramientas que Internet tiene para ofrecernos. Desde tutoriales, artículos, guías, videocursos online, etc",
     "internetMessage": "Internet es la herramienta que necesitamos para unir al mundo. Generadora de Consciencia Global. Usemos este poder con gran responsabilidad."
   },
+  "projects": {
+    "geounity": {
+      "description": "Una aplicación web programada con Vue/Vuex/Nuxt. Una API construida con Node, Express y Sequelize. Base de datos Postgres."
+    },
+    "reversi": {
+      "description": "Un juego programado con React/Redux y testeado con Jest y Enzyme."
+    }
+  },
   "links": {
     "home": "Inicio",
     "projects": "Proyectos",
