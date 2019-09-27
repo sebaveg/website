@@ -45,7 +45,13 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [
+      logo: "/icono.png",
+      title: ""
+    };
+  },
+  computed: {
+    items() {
+      return [
         {
           icon: "mdi-home",
           title: this.$t('links.home'),
@@ -71,14 +77,7 @@ export default {
           title: this.$t('links.about'),
           to: this.localePath('about')
         }
-      ],
-      logo: "/icono.png",
-      title: ""
-    };
-  },
-  methods: {
-    refresh(){
-      window.location.reload(true)
+      ]
     }
   }
 };
