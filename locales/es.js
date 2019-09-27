@@ -1,4 +1,4 @@
-{
+module.exports = {
   "home":{
     "presentation": "Hola! Me llamo Sebastian",
     "job": "Soy desarrollador web",
@@ -11,7 +11,16 @@
       "description": "Frontend desarrollado con Vue/Vuex/Nuxt. Backend API desarrollado con Node, Express y Sequelize. Base de datos en Postgres."
     },
     "reversi": {
-      "description": "Un juego programado con React/Redux y testeado con Jest y Enzyme."
+      "description": "Un juego programado con React/Redux y testeado con Jest y Enzyme.",
+      "link": "Jugar ahora"
+    },
+    "personalSite": {
+      "title": "Sitio web personal",
+      "description": "Creé este sitio que estás viendo actualmente usando Vue, Nuxt, i18n y servido en Heroku. Está diseñado para mostrar mis habilidades de diseño y desarrollo."
+    },
+    "superPodcast": {
+      "title": "Podcast de AudioBoom",
+      "description": "Escuchar podcasts"
     }
   },
   "links": {

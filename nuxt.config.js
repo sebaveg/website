@@ -1,4 +1,8 @@
+// import blogsEn from "./contents/en/blogsEn.js";
+// import blogsEs from "./contents/es/blogsEs.js";
+
 const colors = require("vuetify/es5/util/colors").default;
+const { i18n } = require("./locales/i18n-nuxt-config");
 
 module.exports = {
   mode: "spa",
@@ -22,20 +26,16 @@ module.exports = {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: "cyan" },
-  router: {
-    middleware: 'i18n'
+  loading: {
+    color: "cyan",
+    height: "3px"
   },
   /*
    ** Global CSS
    */
   css: [],
-  /*
-   ** Plugins to load before mounting the App
-   */
-  plugins: ['@/plugins/i18n.js'],
-  generate: {
-    routes: ['/', '/about', '/projects', '/travels', '/es', '/es/acerca', '/es/proyectos', '/es/viajes']
+  pageTransition: {
+    name: "slide-fade"
   },
   /*
    ** Nuxt.js dev-modules
@@ -48,11 +48,9 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/markdownit'
-  ],
+  modules: ["@nuxtjs/markdownit", ["nuxt-i18n", i18n]],
   markdownit: {
-    preset: 'default',
+    preset: "default",
     linkkify: true,
     breaks: true
   },
@@ -85,4 +83,9 @@ module.exports = {
      */
     extend(config, ctx) {}
   }
+  // generate: {
+  //   routes: ["/es", "404"]
+  //     .concat(blogsEn.map(w => `/blog/${w}`))
+  //     .concat(blogsEs.map(w => `es/blog/${w}`))
+  // }
 };

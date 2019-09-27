@@ -49,27 +49,27 @@ export default {
         {
           icon: "mdi-home",
           title: this.$t('links.home'),
-          to: this.$i18n.path('')
+          to: this.localePath('')
         },
         {
           icon: "mdi-laptop",
           title: this.$t('links.projects'),
-          to: this.$i18n.path('projects')
+          to: this.localePath('projects')
         },
         {
           icon: "mdi-airplane",
           title: this.$t('links.travels'),
-          to: this.$i18n.path('travels')
+          to: this.localePath('travels')
         },
         {
           icon: "mdi-notebook",
           title: this.$t('links.articles'),
-          to: this.$i18n.path('articles')
+          to: this.localePath('articles')
         },
         {
           icon: "mdi-information",
           title: this.$t('links.about'),
-          to: this.$i18n.path('about')
+          to: this.localePath('about')
         }
       ],
       logo: "/icono.png",
