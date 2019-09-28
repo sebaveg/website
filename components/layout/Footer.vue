@@ -18,6 +18,11 @@ export default {
     return {
       items: [
         {
+          icon: 'mdi-linkedin',
+          to: 'https://linkedin.com/in/sebastiancardoso92',
+          title: 'linkedin'
+        },
+        {
           icon: 'mdi-github-circle',
           to: 'https://github.com/sebaveg',
           title: 'facebook'
@@ -26,11 +31,6 @@ export default {
           icon: 'mdi-instagram',
           to: 'https://instagram.com/sebageounity',
           title: 'instagram'
-        },
-        {
-          icon: 'mdi-linkedin',
-          to: 'https://linkedin.com/in/sebastiancardoso92',
-          title: 'linkedin'
         },
         {
           icon: 'mdi-facebook',

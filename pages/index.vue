@@ -55,10 +55,10 @@
           <h3 class="title text-center mt-3">{{$t('home.titleProjects')}}</h3>      
         </v-col>
       </v-row>
-      <v-row justify="space-around" align="start">
+      <v-row justify="space-around" align="center">
         <v-col cols="12" md="5">
           <v-card raised>
-            <v-img src="/reversi1.png" alt="Reversi-Game" />
+            <v-img src="/reversi.png" alt="Reversi-Game" />
             <v-card-title>Reversi Game</v-card-title>
             <v-card-text>
               {{ $t('projects.reversi.description') }}
@@ -75,8 +75,8 @@
         </v-col>
         <v-col cols="12" md="5">
           <v-card raised>
-            <v-img src="/geounity1.png" alt="Reversi-Game" />
-            <v-card-title>Geounity</v-card-title>
+            <v-img src="/geounity.png" alt="Reversi-Game" />
+            <v-card-title style="border-top:2px solid lightgrey">Geounity</v-card-title>
             <v-card-text>
               {{ $t('projects.geounity.description') }}
             </v-card-text>
@@ -88,11 +88,23 @@
           </v-card>
         </v-col>
         <v-col cols="12" md="5">
-          <h2 class="header mt-4">{{ $t('projects.superPodcast.title') }}</h2>
-          <p></p>
-          <p><a href="https://next-podcasts.sebastiancardoso92.now.sh/">{{ $t('projects.superPodcast.description') }}</a></p>
-          <p></p>
-          <v-img src="/podcast.png" alt="Reversi-Game" style="margin:0 auto;max-width:350px" />
+          <v-card raised>
+            <v-img src="/podcast.png" alt="Website listen podcast" style="height:500px;width:335px;margin:0 auto"/>
+            <v-card-title style="border-top:2px solid lightgrey">
+              {{ $t('projects.superPodcast.title') }}
+            </v-card-title>
+            <v-card-text>
+              {{ $t('projects.superPodcast.description') }}
+            </v-card-text>
+            <v-card-actions>
+              <v-btn color="success" href="https://next-podcasts.sebastiancardoso92.now.sh/">
+                {{ $t('projects.superPodcast.description') }}
+              </v-btn>
+              <v-btn href="https://github.com/sebaveg/lab-next-podcast" text>
+                <v-icon>mdi-github-circle</v-icon>
+              </v-btn>
+            </v-card-actions>
+          </v-card>
         </v-col>
         <v-col cols="12" md="5">
           <h2 class="header mt-4">{{ $t('projects.personalSite.title') }}</h2>
