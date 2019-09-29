@@ -62,11 +62,11 @@ export default {
           title: this.$t('links.projects'),
           to: this.localePath('projects')
         },
-        {
-          icon: "mdi-airplane",
-          title: this.$t('links.travels'),
-          to: this.localePath('travels')
-        },
+        // {
+        //   icon: "mdi-airplane",
+        //   title: this.$t('links.travels'),
+        //   to: this.localePath('travels')
+        // },
         {
           icon: "mdi-notebook",
           title: this.$t('links.articles'),
