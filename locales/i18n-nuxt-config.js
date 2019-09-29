@@ -22,10 +22,10 @@ const i18n = {
       en: "/projects",
       es: "/proyectos"
     },
-    travels: {
-      en: "/travels",
-      es: "/viajes"
-    },
+    // travels: {
+    //   en: "/travels",
+    //   es: "/viajes"
+    // },
     articles: {
       en: "/articles",
       es: "/articulos"
