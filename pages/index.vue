@@ -112,6 +112,11 @@
         </v-col>
       </v-row>
     </v-container>
+    <v-container>
+      <v-row justify="center">
+        <v-btn href="https://platzi.com/@sebaveg/" justify="center" color="info" outlined>{{$t('home.certificates')}}</v-btn>
+      </v-row>
+    </v-container>
   </main>
 </template>
 

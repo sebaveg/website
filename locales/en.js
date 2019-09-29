@@ -4,7 +4,8 @@ module.exports = {
     job: "I am Web Developer",
     presentation2: "I learned first in the university and later in a self-taught way taking advantage of the tools that the Internet has to offer us. From tutorials, articles, guides, online video courses, etc.",
     internetMessage: "Internet is the tool we need to unite the world. Global Consciousness Generator. Let's use this power with great responsibility.",
-    titleProjects: "Check out some projects I've been working on 👇"
+    titleProjects: "Check out some projects I've been working on 👇",
+    certificates: "Certificates"
   },
   projects: {
     geounity: {
