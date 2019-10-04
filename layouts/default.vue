@@ -57,11 +57,11 @@ export default {
           title: this.$t('links.home'),
           to: this.localePath('/')
         },
-        {
-          icon: "mdi-laptop",
-          title: this.$t('links.projects'),
-          to: this.localePath('projects')
-        },
+        // {
+        //   icon: "mdi-laptop",
+        //   title: this.$t('links.projects'),
+        //   to: this.localePath('projects')
+        // },
         // {
         //   icon: "mdi-airplane",
         //   title: this.$t('links.travels'),
@@ -69,8 +69,8 @@ export default {
         // },
         {
           icon: "mdi-notebook",
-          title: this.$t('links.articles'),
-          to: this.localePath('articles')
+          title: this.$t('links.blog'),
+          to: this.localePath('blog')
         },
         {
           icon: "mdi-information",

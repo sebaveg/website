@@ -2,7 +2,7 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" md="10" xl="7">
-        <article-one />
+        <h1>Hola</h1>
       </v-col>
     </v-row>
   </v-container>
@@ -10,11 +10,8 @@
 
 <script>
 
-  import ArticleOne from '../blogs/hello'
-
   export default {
-    name: 'Articles',
-    components: { ArticleOne }
+    name: 'Articles'
   }
 
 </script>

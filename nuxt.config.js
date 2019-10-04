@@ -21,7 +21,16 @@ module.exports = {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/icono.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/icono.ico" },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap' }
+    ]
+  },
+  css: [
+    '~/assets/main.scss'
+  ],
+  pageTransition: {
+    name: "slide-fade"
   },
   /*
    ** Customize the progress-bar color
@@ -33,10 +42,6 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
-  pageTransition: {
-    name: "slide-fade"
-  },
   /*
    ** Nuxt.js dev-modules
    */

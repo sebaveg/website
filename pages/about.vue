@@ -2,7 +2,7 @@
   <v-layout justify-center wrap row>
     <v-flex xs11 sm10 md9 lg7 xl6>
       <section>
-        <h2 class="display-1 font-wieght-bold my-5 text-center">Conoceme un poco mas</h2>
+        <h2 class="display-2 font-wieght-bold my-5 text-center">Conoceme un poco mas ✌️</h2>
         <p>
           Mi nombre es Sebastian Cardoso Castillo, tengo 27 años, nací en
           Montevideo, Uruguay y vivo en Buenos Aires, Argentina hace 23 años.

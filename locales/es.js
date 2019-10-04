@@ -1,10 +1,11 @@
 module.exports = {
   home: {
     presentation: "Hola! Me llamo Sebastian",
-    job: "Soy desarrollador web",
+    job: "Soy desarrollador web 👨‍💻",
     presentation2: "Aprendí primero en la universidad y mas tarde de forma autodidacta aprovechando las herramientas que Internet tiene para ofrecernos. Desde tutoriales, artículos, guías, videocursos online, etc",
     internetMessage: "Internet es la herramienta que necesitamos para unir al mundo. Generadora de Consciencia Global. Usemos este poder con gran responsabilidad.",
-    titleProjects: "Proyectos en los que he estado trabajando 👇",
+    titleProjects: "👇 Proyectos 👇",
+    skills: "Herramientas",
     certificates: "Certificados"
   },
   projects: {

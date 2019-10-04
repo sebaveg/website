@@ -1,7 +1,7 @@
 <template>
   <main>
     <v-row justify="center" align="center" class="presentation-background">
-      <v-col cols="12" sm="8" md="3" class="mt-2">
+      <v-col cols="9" sm="8" md="3" class="mt-2">
         <v-hover>
           <template v-slot="{hover}">
             <v-img src="/seba.jpg" width="250" alt="Foto de seba" style="margin:0 auto;border-radius:50%" class="transition-swing" :class="`elevation-${hover?24:6}`"/>
@@ -22,37 +22,23 @@
         </v-hover>
       </v-col>
     </v-row>
-    <v-row justify="center">
-      <v-cols cols="11" md="7">
-        <v-alert
-          :value="true"
-          color="primary"
-          class="text-center font-weight-bold mt-3 mx-1 elevation-5"
-          dark
-        >
-          {{ $t('home.internetMessage') }}
-        </v-alert>
-      </v-cols>
-      <v-col cols="11" md="7">
-        <p class="ma-4 pl-2" style="border-left: 3px solid purple">
-          <i>
-            {{ $t('home.presentation2') }}
-          </i>
-        </p>
-      </v-col>
-      <v-col cols="12" class="mt-2" style="font-size:1.1rem">
-        <div class="stack">
-          <i class="mdi mdi-vuejs"></i> Vue | Vuex | <i class="mdi mdi-nuxt"></i> Nuxt <br />
-          <i class="mdi mdi-react"></i> React | Redux | Next | React-Native<br/>
-          <i class="mdi mdi-nodejs"></i> Nodejs |
-          <i class="mdi mdi-database"></i> Postgres
-        </div>
-      </v-col>
-    </v-row>
     <v-container>
       <v-row justify="center">
+        <v-cols cols="11" md="7">
+          <v-alert
+            :value="true"
+            color="primary"
+            class="text-center font-weight-bold mt-5 mx-1 elevation-5"
+            dark
+          >
+            {{ $t('home.internetMessage') }}
+          </v-alert>
+        </v-cols>
+      </v-row>
+      <!-- Mis proyectos -->
+      <v-row justify="center">
         <v-col cols="12">
-          <h3 class="title text-center mt-3">{{$t('home.titleProjects')}}</h3>      
+          <h3 class="display-1 font-weight-bold text-center mt-3">{{$t('home.titleProjects')}}</h3>
         </v-col>
       </v-row>
       <v-row justify="space-around" align="center">
@@ -111,6 +97,62 @@
           <p>{{ $t('projects.personalSite.description') }}</p>
         </v-col>
       </v-row>
+      <v-row justify="center">
+        <h3 class="display-1 font-weight-bold text-center my-3">{{$t('home.skills')}}</h3>
+      </v-row>
+      <v-row justify="center">
+        <v-col cols="2" class="text-center">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+            <img src="/skills/html.png" />
+          </a>
+        </v-col>
+        <v-col cols="2" class="text-center">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">
+            <img src="/skills/css.png" />
+          </a>
+        </v-col>
+        <v-col cols="2" class="text-center">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <img src="/skills/js.png" />
+          </a>
+        </v-col>
+        <v-col cols="2" class="text-center">
+          <a href="https://nodejs.org/en/">
+            <img src="/skills/node.png" />
+          </a>
+        </v-col>
+      </v-row>
+      <v-row justify="center">
+        <v-col cols="2" class="text-center">
+          <a href="https://vuejs.org/">
+            <img src="/skills/vue.png" />
+          </a>
+        </v-col>
+        <v-col cols="2" class="text-center">
+          <a href="https://facebook.github.io/react/">
+            <img src="/skills/react.png" />
+          </a>
+        </v-col>
+        <v-col cols="2" class="text-center">
+          <a href="https://git-scm.com/">
+            <img src="/skills/git.png" />
+          </a>
+        </v-col>
+        <v-col cols="2" class="text-center">
+          <a href="http://sass-lang.com/">
+            <img src="/skills/sass.png" />
+          </a>
+        </v-col>
+      </v-row>
+      <v-row justify="center">
+        <v-col cols="11" md="7">
+          <p class="ma-4 pl-2" style="border-left: 3px solid purple">
+            <i>
+              {{ $t('home.presentation2') }}
+            </i>
+          </p>
+        </v-col>
+      </v-row>
     </v-container>
     <v-container>
       <v-row justify="center">
@@ -135,6 +177,7 @@ export default {
 }
 .presentation-background{
   position:relative;
+  min-height: 50vh;
 }
 .presentation-background:before{
   content: '';
