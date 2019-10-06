@@ -32,6 +32,9 @@ module.exports = {
     blog: "Blog",
     about: "About"
   },
+  menu: {
+    navigation: "Navigation menu"
+  },
   footer: {
     message: "Contact me if you have a job to offer me or want to ask me something!"
   }

@@ -32,6 +32,9 @@ module.exports = {
     articles: "Artículos",
     about: "Sobre mi"
   },
+  menu: {
+    navigation: "Menu de navegación"
+  },
   footer: {
     message: "Contactame si tienes un trabajo para ofrecerme o quieres preguntarme algo!"
   }

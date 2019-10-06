@@ -8,7 +8,7 @@
             img(src="/seba2.jpg")
           v-list-item-content
             v-list-item-title Sebastian
-            v-list-item-subtitle Menu de navegación
+            v-list-item-subtitle {{ $t('menu.navigation') }}
         v-divider
         v-list-item(
           v-for="(item, i) in items"
@@ -67,11 +67,11 @@ export default {
         //   title: this.$t('links.travels'),
         //   to: this.localePath('travels')
         // },
-        {
-          icon: "mdi-notebook",
-          title: this.$t('links.blog'),
-          to: this.localePath('blog')
-        },
+        // {
+        //   icon: "mdi-notebook",
+        //   title: this.$t('links.blog'),
+        //   to: this.localePath('blog')
+        // },
         {
           icon: "mdi-information",
           title: this.$t('links.about'),
