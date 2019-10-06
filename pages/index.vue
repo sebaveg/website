@@ -101,44 +101,44 @@
         <h3 class="display-1 font-weight-bold text-center my-3">{{$t('home.skills')}}</h3>
       </v-row>
       <v-row justify="center">
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
             <img src="/skills/html.png" />
           </a>
         </v-col>
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">
             <img src="/skills/css.png" />
           </a>
         </v-col>
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
             <img src="/skills/js.png" />
           </a>
         </v-col>
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://nodejs.org/en/">
             <img src="/skills/node.png" />
           </a>
         </v-col>
       </v-row>
       <v-row justify="center">
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://vuejs.org/">
             <img src="/skills/vue.png" />
           </a>
         </v-col>
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://facebook.github.io/react/">
             <img src="/skills/react.png" />
           </a>
         </v-col>
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="https://git-scm.com/">
             <img src="/skills/git.png" />
           </a>
         </v-col>
-        <v-col cols="2" class="text-center">
+        <v-col cols="3" md="2" class="text-center">
           <a href="http://sass-lang.com/">
             <img src="/skills/sass.png" />
           </a>
@@ -177,7 +177,7 @@ export default {
 }
 .presentation-background{
   position:relative;
-  min-height: 50vh;
+  min-height: 40vh;
 }
 .presentation-background:before{
   content: '';

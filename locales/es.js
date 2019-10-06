@@ -1,6 +1,6 @@
 module.exports = {
   home: {
-    presentation: "Hola! Me llamo Sebastian",
+    presentation: "Hola!👋 Me llamo Sebastian",
     job: "Soy desarrollador web 👨‍💻",
     presentation2: "Aprendí primero en la universidad y mas tarde de forma autodidacta aprovechando las herramientas que Internet tiene para ofrecernos. Desde tutoriales, artículos, guías, videocursos online, etc",
     internetMessage: "Internet es la herramienta que necesitamos para unir al mundo. Generadora de Consciencia Global. Usemos este poder con gran responsabilidad.",
@@ -31,5 +31,8 @@ module.exports = {
     travels: "Viajes",
     articles: "Artículos",
     about: "Sobre mi"
+  },
+  footer: {
+    message: "Contactame si tienes un trabajo para ofrecerme o quieres preguntarme algo!"
   }
 }
