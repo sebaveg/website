@@ -4,7 +4,7 @@
       <v-card-text>
         <ul>
           <li v-for="(item, k) in items" :key="k">
-            <a :href="item.to" target="_blank" title="facebook">
+            <a :href="item.to" target="_blank" title="item.title">
               <v-icon style="font-size:2rem">{{item.icon}}</v-icon>
             </a>
           </li>
