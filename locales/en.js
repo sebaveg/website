@@ -23,6 +23,11 @@ module.exports = {
     superPodcast: {
       title: "Podcast of AudioBoom",
       description: "Listen podcasts"
+    },
+    fireman: {
+      title: "Web site of fireman",
+      description: "For volunteer firefighters from Brandsen. With Vue and CMS in Strapi",
+      action: "See website"
     }
   },
   links: {
@@ -34,6 +39,12 @@ module.exports = {
   },
   menu: {
     navigation: "Navigation menu"
+  },
+  about: {
+    title: "Know me a little more ✌️",
+    p1: "My name is Sebastian Cardoso Castillo, I am 27 years old, I was born in Montevideo, Uruguay and I live in Buenos Aires, Argentina 23 years ago.",
+    p2: "I am passionate about the change that the digital era is producing today. I want to create applications that add value to humanity so that we can all live better.",
+    action: "Come back home"
   },
   footer: {
     message: "Contact me if you have a job to offer me or want to ask me something!"

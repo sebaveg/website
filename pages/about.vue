@@ -2,29 +2,16 @@
   <v-layout justify-center wrap row>
     <v-flex xs11 sm10 md9 lg7 xl6>
       <section>
-        <h2 class="display-2 font-wieght-bold my-5 text-center">Conoceme un poco mas ✌️</h2>
+        <h2 class="display-2 font-wieght-bold my-5 text-center">{{ $t('about.title') }}</h2>
         <p>
-          Mi nombre es Sebastian Cardoso Castillo, tengo 27 años, nací en
-          Montevideo, Uruguay y vivo en Buenos Aires, Argentina hace 23 años.
+          {{ $t('about.p1' )}}
         </p>
         <p>
-          Me apasiona el cambio que la era digital esta produciendo hoy en día.
-          Quiero crear aplicaciones que aporten valor a la humanidad para que
-          todos podamos vivir mejor.
+          {{ $t('about.p2' )}}
         </p>
-        <p>
-          Además de crear tecnología me apasiona el desarrollo personal. Busco
-          crecer los cuatro pilares básicos de la vida:
-        </p>
-        <ul>
-          <li> Salud </li>
-          <li> Riqueza personal </li>
-          <li> Relaciones sociales </li>
-          <li> Espiritualidad. </li>
-        </ul>
         <div class="text-center">
           <v-btn color="primary" class="mt-5  " nuxt to="/"
-            >Volver al inicio</v-btn
+            >{{ $t('about.action' )}}</v-btn
           >
         </div>
       </section>

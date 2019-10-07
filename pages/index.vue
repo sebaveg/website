@@ -93,6 +93,25 @@
           </v-card>
         </v-col>
         <v-col cols="12" md="5">
+          <v-card raised>
+            <v-img src="/bomberos.png" alt="Website listen podcast" style="height:500px;width:335px;margin:0 auto"/>
+            <v-card-title style="border-top:2px solid lightgrey">
+              {{ $t('projects.fireman.title') }}
+            </v-card-title>
+            <v-card-text>
+              {{ $t('projects.fireman.description') }}
+            </v-card-text>
+            <v-card-actions>
+              <v-btn color="success" href="https://upbeat-neumann-7de15d.netlify.com/">
+                {{ $t('projects.fireman.action') }}
+              </v-btn>
+              <v-btn href="https://github.com/sebaveg/Fireman-website" text>
+                <v-icon>mdi-github-circle</v-icon>
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="5">
           <h2 class="header mt-4">{{ $t('projects.personalSite.title') }}</h2>
           <p>{{ $t('projects.personalSite.description') }}</p>
         </v-col>

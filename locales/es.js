@@ -23,6 +23,11 @@ module.exports = {
     superPodcast: {
       title: "Podcast de AudioBoom",
       description: "Escuchar podcasts"
+    },
+    fireman: {
+      title: "Sitio web de bomberos",
+      description: "Para los bomberos voluntarios de Brandsen. Con Vue y CMS en Strapi",
+      action: "Ver sitio web"
     }
   },
   links: {
@@ -34,6 +39,12 @@ module.exports = {
   },
   menu: {
     navigation: "Menu de navegación"
+  },
+  about: {
+    title: "Conoceme un poco mas ✌️",
+    p1: "Mi nombre es Sebastian Cardoso Castillo, tengo 27 años, nací en Montevideo, Uruguay y vivo en Buenos Aires, Argentina hace 23 años.",
+    p2: "Me apasiona el cambio que la era digital esta produciendo hoy en día. Quiero crear aplicaciones que aporten valor a la humanidad para que todos podamos vivir mejor.",
+    action: "Volver al inicio"
   },
   footer: {
     message: "Contactame si tienes un trabajo para ofrecerme o quieres preguntarme algo!"
